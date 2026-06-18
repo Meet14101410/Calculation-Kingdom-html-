@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculation Kingdom</title>
+</head>
+<body>
+    <h1>🏰 Calculation Kingdom</h1>
+    <p>Solve: 8 + 5 = ?</p>
+    <input type="number" id="ans">
+    <button onclick="check()">Submit</button>
+    <p id="result"></p>
+
+    <script>
+        function check() {
+            let a = document.getElementById("ans").value;
+            document.getElementById("result").innerText =
+                (a == 13) ? "🎉 Correct!" : "❌ Try Again";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+function check() {
+    let answer = document.getElementById("ans").value;
+    let result = document.getElementById("result");
+
+    result.innerText = (answer == 13)
+        ? "🎉 Correct!"
+        : "❌ Try Again";
+}
